@@ -2,12 +2,6 @@ Ext.define('ProductsApp.view.product.List', {
     extend: 'Ext.container.Container',
     xtype: 'product-list',
 
-    requires: [
-        'ProductsApp.view.product.ListController',
-        'ProductsApp.view.product.ListModel',
-        'ProductsApp.view.product.EditModal',
-    ],
-
     controller: 'product-list',
     viewModel: 'product-list',
 

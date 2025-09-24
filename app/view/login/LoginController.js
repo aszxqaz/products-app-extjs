@@ -2,8 +2,6 @@ Ext.define('ProductsApp.view.login.LoginController', {
     extend: 'Ext.app.ViewController',
     alias: 'controller.login',
 
-    requires: ['ProductsApp.api.Client'],
-
     async onLogin() {
         const viewModel = this.getViewModel();
         viewModel.set('isLoading', true);
