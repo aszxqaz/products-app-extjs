@@ -23,13 +23,10 @@ Ext.define('ProductsApp.view.main.MainController', {
     },
 
     onLogin({ username }) {
-        this.getViewModel().set('username', username);
         this.switchMainView('home');
     },
 
     onLogout() {
-        this.getViewModel().set('username', '');
-        console.log('here');
         this.switchMainView('login');
     },
 });

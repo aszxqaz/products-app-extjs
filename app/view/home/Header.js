@@ -14,6 +14,9 @@ Ext.define('ProductsApp.view.home.Header', {
         {
             xtype: 'button',
             text: 'Товары',
+            listeners: {
+                click: 'onProductsTabAdded',
+            },
         },
         {
             xtype: 'button',

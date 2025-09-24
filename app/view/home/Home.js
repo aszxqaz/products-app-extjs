@@ -2,6 +2,15 @@ Ext.define('ProductsApp.view.home.Home', {
     extend: 'Ext.container.Container',
     xtype: 'home',
 
+    requires: [
+        'ProductsApp.view.home.Header',
+        'ProductsApp.view.home.HomeController',
+        'ProductsApp.view.home.HomeModel',
+    ],
+
+    controller: 'home',
+    viewModel: 'home',
+
     layout: 'border',
 
     items: [
@@ -12,10 +21,6 @@ Ext.define('ProductsApp.view.home.Home', {
         {
             xtype: 'tabpanel',
             region: 'center',
-            items: {
-                xtype: 'component',
-                html: 'Home',
-            },
         },
     ],
 });

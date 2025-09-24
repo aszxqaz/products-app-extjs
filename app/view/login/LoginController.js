@@ -1,6 +1,5 @@
 Ext.define('ProductsApp.view.login.LoginController', {
     extend: 'Ext.app.ViewController',
-
     alias: 'controller.login',
 
     requires: ['ProductsApp.api.Client'],

@@ -3,10 +3,6 @@ Ext.define('ProductsApp.Application', {
 
     name: 'ProductsApp',
 
-    stores: [
-        // TODO: add global / shared stores here
-    ],
-
     onAppUpdate: function () {
         Ext.Msg.confirm(
             'Application Update',
