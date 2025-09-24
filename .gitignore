@@ -1,0 +1,5 @@
+.sencha/app/build/
+build/
+*.log
+ext/
+bootstrap.*
