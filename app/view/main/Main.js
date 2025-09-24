@@ -12,7 +12,7 @@ Ext.define('ProductsApp.view.main.Main', {
     items: [
         {
             itemId: 'main-view',
-            xtype: 'home',
+            xtype: 'login',
         },
     ],
 });

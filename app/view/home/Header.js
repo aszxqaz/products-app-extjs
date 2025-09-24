@@ -18,6 +18,9 @@ Ext.define('ProductsApp.view.home.Header', {
         {
             xtype: 'button',
             text: 'Выйти',
+            listeners: {
+                click: 'onLogout',
+            },
         },
     ],
 });
